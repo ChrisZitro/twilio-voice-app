@@ -1,5 +1,13 @@
 {
   "rewrites": [
     { "source": "/voice.xml", "destination": "/api/voice" }
-  ]
+  ],
+  "functions": {
+    "api/token.js": {
+      "runtime": "nodejs18.x"
+    },
+    "api/voice.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
