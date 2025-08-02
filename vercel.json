@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/voice.xml", "destination": "/api/voice" }
+  ]
+}

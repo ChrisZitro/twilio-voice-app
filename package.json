@@ -1,0 +1,12 @@
+{
+  "name": "twilio-voice-app",
+  "version": "1.0.0",
+  "description": "Simple browser-based Twilio voice dialer for a remote sales team",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel start"
+  },
+  "dependencies": {
+    "twilio": "^4.18.0"
+  }
+}
